@@ -834,7 +834,7 @@ section {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #f6f6f6;
+  background: #202020;
   transition: ease-in-out 0.3s;
 }
 
@@ -850,19 +850,20 @@ section {
   padding: 0;
   line-height: 1;
   font-size: 16px;
+  color: white !important; 
 }
 
 .features .icon-box h3 a {
-  color: #222222;
+  color: white;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #3498db;
+  color: #0092f3;
 }
 
 .features .icon-box:hover {
-  background: #eef7fc;
+  background: #555555;
 }
 
 /*--------------------------------------------------------------
